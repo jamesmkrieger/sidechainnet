@@ -29,3 +29,6 @@ __author__ = "Jonathan King"
 __credits__ = ("Carnegie Mellon University–"
                "University of Pittsburgh Joint PhD Program in Computational Biology\n"
                "David Koes, PhD, Advisor.")
+
+from . import _version
+__version__ = _version.get_versions()['version']
